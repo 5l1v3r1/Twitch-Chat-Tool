@@ -1,7 +1,7 @@
 # Twitch Chat Tool
 
 ### Welcome!
-<p align="center">
+<p align="center" style="height: 250px;width: auto;">
   <img src="Gif/usage.gif">
 </p>
 
