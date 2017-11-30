@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
+using System.Net;
+using System.Text.RegularExpressions;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 namespace Twitch_Tool
 {
@@ -26,6 +30,7 @@ namespace Twitch_Tool
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            metroLabel2.Visible = false;
             webBrowser1.ScriptErrorsSuppressed = true;
             this.TopMost = false;
             hidden = false;
@@ -49,6 +54,18 @@ namespace Twitch_Tool
                 webBrowser1.Visible = true;
                 webBrowser1.Navigate("https://twitch.tv/" + metroTextBox1.Text + "/chat");
                 this.Size = new System.Drawing.Size(302, 592);
+                timer1.Start();
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            using (WebClient client = new WebClient())
+            {
+                string s = client.DownloadString("http://tmi.twitch.tv/group/user/" + metroTextBox1.Text + "/chatters");
+                JObject jObject = JObject.Parse(s);
+                int chatters = (int)jObject["chatter_count"];
+                metroLabel2.Text = "Viewers: " + chatters.ToString();
             }
         }
 
@@ -76,9 +93,11 @@ namespace Twitch_Tool
         {
             if (hidden == false)
             {
+                metroLabel2.Visible = true;
+                pictureBox1.Visible = true;
                 webBrowser1.Location = new Point (0, 3);
                 webBrowser1.Size = new Size (302, 560);
-                metroButton4.Location = new Point(23, 378);
+                metroButton4.Location = new Point(23, 30);
                 this.Size = new System.Drawing.Size(302, 413);
                 groupBox1.Visible = false;
                 metroButton4.Text = "Show Settings Box";
@@ -86,6 +105,8 @@ namespace Twitch_Tool
             }
             else
             {
+                metroLabel2.Visible = false;
+                pictureBox1.Visible = false;
                 groupBox1.Visible = true;
                 this.Size = new System.Drawing.Size(302, 592);
                 webBrowser1.Location = new Point(23, 214);
@@ -94,6 +115,32 @@ namespace Twitch_Tool
                 metroButton4.Text = "Hide Settings Box";
                 hidden = false;
             }
+        }
+
+
+
+
+
+
+
+        public class Links
+        {
+        }
+
+        public class Chatters
+        {
+            public List<string> moderators { get; set; }
+            public List<object> staff { get; set; }
+            public List<object> admins { get; set; }
+            public List<object> global_mods { get; set; }
+            public List<string> viewers { get; set; }
+        }
+
+        public class RootObject
+        {
+            public Links _links { get; set; }
+            public int chatter_count { get; set; }
+            public Chatters chatters { get; set; }
         }
     }
 }

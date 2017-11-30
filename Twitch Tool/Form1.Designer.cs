@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
             this.metroTrackBar1 = new MetroFramework.Controls.MetroTrackBar();
@@ -37,7 +38,11 @@
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroButton1
@@ -173,12 +178,39 @@
             this.metroButton4.UseSelectable = true;
             this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(303, 50);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(23, 5);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(109, 19);
+            this.metroLabel2.TabIndex = 13;
+            this.metroLabel2.Text = "Viewers: Fetching";
+            this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Light;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(302, 592);
             this.Controls.Add(this.metroButton4);
+            this.Controls.Add(this.metroLabel2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.groupBox1);
             this.DisplayHeader = false;
@@ -194,7 +226,9 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -209,6 +243,9 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroButton metroButton4;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

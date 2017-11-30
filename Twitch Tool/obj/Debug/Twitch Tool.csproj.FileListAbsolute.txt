@@ -11,3 +11,13 @@ C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.csproj
 C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.csproj.CoreCompileInputs.cache
 C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.exe
 C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.pdb
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\bin\Debug\Twitch Tool.exe.config
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\bin\Debug\Twitch Tool.exe
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\bin\Debug\Twitch Tool.pdb
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\obj\Debug\Twitch Tool.csprojResolveAssemblyReference.cache
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\obj\Debug\Twitch_Tool.Form1.resources
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\obj\Debug\Twitch_Tool.Properties.Resources.resources
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\obj\Debug\Twitch Tool.csproj.GenerateResource.Cache
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\obj\Debug\Twitch Tool.csproj.CoreCompileInputs.cache
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\obj\Debug\Twitch Tool.exe
+C:\Users\prefo\source\repos\Twitch-Chat-Tool\Twitch Tool\obj\Debug\Twitch Tool.pdb
