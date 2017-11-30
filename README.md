@@ -1,10 +1,15 @@
 # Twitch Chat Tool
 
+<p align="center">
+  <img src="Gif/usage.gif">
+</p>
+
 ### Welcome!
 
 I made a tool for Twitch streamers with ony one monitor like myself while streaming! It allows you to put your chat OVER your games! Right now, it is quite ugly but is open source so feel free to update it how you would like!
 
 [Binary download](https://thaisen.pw/twitchtool/Twitch%20Tool.exe)
+
 [Source download](https://github.com/ThaisenPM/Twitch-Chat-Tool/archive/master.zip)
 
 ### Usage
@@ -20,7 +25,3 @@ I made a tool for Twitch streamers with ony one monitor like myself while stream
 I don't check GitHub issue's very often, so feel free to [add me on Steam](steam://friends/add/76561198219057417)! I will be sure to answer questions or commends over there!
 
 This entire project was created while streaming over at my Twitch! Join [my stream here!](https://Twitch.tv/Thaisen)
-
-### GIF of it in action
-
-[https://gyazo.com/1b5f134919770cecdce12c96339d1db5](https://gyazo.com/1b5f134919770cecdce12c96339d1db5.gif)
