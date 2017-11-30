@@ -15,8 +15,12 @@ I made a tool for Twitch streamers with ony one monitor like myself while stream
 4. Set your opacity scale (Make it see-through so it doesn't block your game as much)
 5. Click "Hide Settings Box" and enjoy streaming with ease
 
-### Questions or Comments?
+### Questions or comments?
 
 I don't check GitHub issue's very often, so feel free to [add me on Steam](steam://friends/add/76561198219057417)! I will be sure to answer questions or commends over there!
 
 This entire project was created while streaming over at my Twitch! Join [my stream here!](https://Twitch.tv/Thaisen)
+
+### GIF of it in action
+
+![](https://gyazo.com/1b5f134919770cecdce12c96339d1db5.gif)
