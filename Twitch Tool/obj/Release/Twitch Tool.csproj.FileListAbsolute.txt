@@ -1,0 +1,10 @@
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Release\Twitch Tool.exe.config
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Release\Twitch Tool.exe
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Release\Twitch Tool.pdb
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Release\Twitch Tool.csprojResolveAssemblyReference.cache
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Release\Twitch_Tool.Form1.resources
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Release\Twitch_Tool.Properties.Resources.resources
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Release\Twitch Tool.csproj.GenerateResource.Cache
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Release\Twitch Tool.csproj.CoreCompileInputs.cache
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Release\Twitch Tool.exe
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Release\Twitch Tool.pdb

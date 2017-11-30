@@ -1,0 +1,13 @@
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Debug\Twitch Tool.exe.config
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Debug\Twitch Tool.exe
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Debug\Twitch Tool.pdb
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Debug\MetroFramework.Design.dll
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Debug\MetroFramework.dll
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.csprojResolveAssemblyReference.cache
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch_Tool.Form1.resources
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch_Tool.Properties.Resources.resources
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.csproj.GenerateResource.Cache
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.csproj.CoreCompileInputs.cache
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.exe
+C:\Users\prefo\source\repos\Twitch Tool\Twitch Tool\obj\Debug\Twitch Tool.pdb
