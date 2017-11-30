@@ -23,4 +23,4 @@ This entire project was created while streaming over at my Twitch! Join [my stre
 
 ### GIF of it in action
 
-![](https://gyazo.com/1b5f134919770cecdce12c96339d1db5.gif)
+[https://gyazo.com/1b5f134919770cecdce12c96339d1db5](https://gyazo.com/1b5f134919770cecdce12c96339d1db5.gif)
