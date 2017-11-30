@@ -9,6 +9,7 @@
 I made a tool for Twitch streamers with ony one monitor like myself while streaming! It allows you to put your chat OVER your games! Right now, it is quite ugly but is open source so feel free to update it how you would like!
 
 [Binary download](https://thaisen.pw/twitchtool/Twitch%20Tool.exe)
+
 [Source download](https://github.com/ThaisenPM/Twitch-Chat-Tool/archive/master.zip)
 
 ### Usage
